@@ -56,7 +56,7 @@ album[0].addEventListener('click', function () {
      </audio>`
     })
     tombol2[2].addEventListener('click', function () {
-        music.innerHTML = `<h6 class="card-title mt-3 ms-5 mb-3">${obj.lagu2}</h6>
+        music.innerHTML = `<h6 class="card-title mt-3 ms-5 mb-3">${obj.lagu3}</h6>
         <audio controls autoplay class="ms-5" >
          <source src="./data/audio/the_beatles/yesterday.mp3" type="audio/mp3">
      </audio>`
@@ -80,7 +80,7 @@ album[1].addEventListener('click', function () {
      </audio>`
     })
     tombol2[2].addEventListener('click', function () {
-        music.innerHTML = `<h6 class="card-title mt-3 ms-5 mb-3">${obj.lagu2}</h6>
+        music.innerHTML = `<h6 class="card-title mt-3 ms-5 mb-3">${obj.lagu3}</h6>
         <audio controls autoplay class="ms-5" >
          <source src="./data/audio/slank/Lembah-Baliem.mp3" type="audio/mp3">
      </audio>`
@@ -105,7 +105,7 @@ album[2].addEventListener('click', function () {
      </audio>`
     })
     tombol2[2].addEventListener('click', function () {
-        music.innerHTML = `<h6 class="card-title mt-3 ms-5 mb-3">${obj.lagu2}</h6>
+        music.innerHTML = `<h6 class="card-title mt-3 ms-5 mb-3">${obj.lagu3}</h6>
         <audio controls autoplay class="ms-5" >
          <source src="./data/audio/quen/We-Are-The-Champions.mp3" type="audio/mp3">
      </audio>`
@@ -113,7 +113,7 @@ album[2].addEventListener('click', function () {
 })
 
 function setel(obj) {
-    return `<h6 class="card-title mt-3 ms-5 mb-3">${obj.lagu2}</h6>
+    return `<h6 class="card-title mt-3 ms-5 mb-3">Music</h6>
         <audio controls autoplay class="ms-5" >
          <source src=${obj.lagu} type="audio/mp3">
      </audio>`
